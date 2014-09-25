@@ -1,6 +1,16 @@
 Talks
 =====
 
- **Sep 24, 2014 - Intro to Xamarin.Forms @ CTTDNUG**
-  - Location: CTTDNUG User Group (Kitchener)
-  - Slides:  https://speakerdeck.com/redth/xamarin-dot-forms-cttdnug
+**Sep 24, 2014 - Intro to Xamarin.Forms** @ CTTDNUG (Kitchener)
+
+**May 27, 2014 - Xamarin & Azure Mobile Services, Build an iOS App in C#** @ Techorama in Belgium
+
+**Jan 9, 2014 - Build an iOS app with C#** @ London .NET User Group
+
+**Oct 17, 2013 - Cross Platform Components** Online
+  
+**Sep 2, 2013 - Intro to Xamarin** @ Mobile Monday Ann Arbor
+
+**May 4, 2013 - Cross Platform Mobile Dev with Xamarin & C#** @ MobiDevDay Detroit
+
+**Nov 29, 2012 - Barcode Scanning** Online
