@@ -1,6 +1,8 @@
 Talks
 =====
 
+**Oct 9, 2014 - Build your Apps on the Shoulders of Giants** @ Xamarin Evolve 2014 (Atlanta)
+
 **Sep 24, 2014 - Intro to Xamarin.Forms** @ CTTDNUG (Kitchener)
 
 **May 27, 2014 - Xamarin & Azure Mobile Services, Build an iOS App in C#** @ Techorama in Belgium
@@ -14,3 +16,4 @@ Talks
 **May 4, 2013 - Cross Platform Mobile Dev with Xamarin & C#** @ MobiDevDay Detroit
 
 **Nov 29, 2012 - Barcode Scanning** Online
+ 

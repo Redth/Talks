@@ -1,0 +1,9 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android" android:versionCode="1" android:versionName="1.0" package="com.monkeys.r.us">
+	<uses-sdk />
+	<application android:label="Monkeys 'R Us" android:icon="@drawable/icon" android:theme="@style/AppTheme">
+		<activity android:name="io.card.payment.CardIOActivity" android:configChanges="keyboardHidden|orientation" />
+		<activity android:name="io.card.payment.DataEntryActivity" />
+	</application>
+	<uses-permission android:name="android.permission.INTERNET" />
+</manifest>
