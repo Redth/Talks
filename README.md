@@ -1,6 +1,8 @@
 Talks
 =====
 
+**Dec 11, 2014 - Wear C# on your Wrist** @ London .NET User Group
+
 **Oct 9, 2014 - Build your Apps on the Shoulders of Giants** @ Xamarin Evolve 2014 (Atlanta)
 
 **Sep 24, 2014 - Intro to Xamarin.Forms** @ CTTDNUG (Kitchener)

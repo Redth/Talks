@@ -1,0 +1,72 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2012
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NotificationsDemo", "NotificationsDemo\NotificationsDemo.csproj", "{64F60158-F810-4E90-A391-26677F73A513}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WearListDemo", "WearListDemo\WearListDemo.csproj", "{50CB3208-5136-45B3-BD7B-CB4DFF0B4A52}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SensorDemo", "SensorDemo\SensorDemo.csproj", "{78607E78-93B1-4DDC-B282-B95D87A67A75}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "WatchFaceDemo", "WatchFaceDemo", "{B4C03A4A-7F6B-4685-954E-ACAA9CCD662D}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WatchFaceDemoCompanion", "WatchFaceDemoCompanion\WatchFaceDemoCompanion.csproj", "{CD2BEF2B-D4DB-4C44-9CF8-06BAD9288919}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WatchFaceDemo", "WatchFaceDemo\WatchFaceDemo.csproj", "{941559E1-57A6-4479-988C-D6D212734045}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GridViewPagerSample", "GridViewPager\GridViewPager\GridViewPagerSample.csproj", "{CDC26D3D-2B71-472A-987B-A688AA46E7DD}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "DataDemo", "DataDemo", "{ED3C1DD1-1DB3-443A-98FB-517224263B01}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DataLayer", "DataLayer\DataLayer\DataLayer.csproj", "{9A80815D-70F8-484F-A345-8CF23148DEE5}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Wearable", "DataLayer\Wearable\Wearable.csproj", "{0A13546B-8D0F-4368-B17A-C33D8322A86D}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{0A13546B-8D0F-4368-B17A-C33D8322A86D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0A13546B-8D0F-4368-B17A-C33D8322A86D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0A13546B-8D0F-4368-B17A-C33D8322A86D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0A13546B-8D0F-4368-B17A-C33D8322A86D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{50CB3208-5136-45B3-BD7B-CB4DFF0B4A52}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{50CB3208-5136-45B3-BD7B-CB4DFF0B4A52}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{50CB3208-5136-45B3-BD7B-CB4DFF0B4A52}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{50CB3208-5136-45B3-BD7B-CB4DFF0B4A52}.Release|Any CPU.Build.0 = Release|Any CPU
+		{64F60158-F810-4E90-A391-26677F73A513}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{64F60158-F810-4E90-A391-26677F73A513}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{64F60158-F810-4E90-A391-26677F73A513}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{64F60158-F810-4E90-A391-26677F73A513}.Release|Any CPU.Build.0 = Release|Any CPU
+		{78607E78-93B1-4DDC-B282-B95D87A67A75}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{78607E78-93B1-4DDC-B282-B95D87A67A75}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{78607E78-93B1-4DDC-B282-B95D87A67A75}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{78607E78-93B1-4DDC-B282-B95D87A67A75}.Release|Any CPU.Build.0 = Release|Any CPU
+		{941559E1-57A6-4479-988C-D6D212734045}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{941559E1-57A6-4479-988C-D6D212734045}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{941559E1-57A6-4479-988C-D6D212734045}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{941559E1-57A6-4479-988C-D6D212734045}.Release|Any CPU.Build.0 = Release|Any CPU
+		{9A80815D-70F8-484F-A345-8CF23148DEE5}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9A80815D-70F8-484F-A345-8CF23148DEE5}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9A80815D-70F8-484F-A345-8CF23148DEE5}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9A80815D-70F8-484F-A345-8CF23148DEE5}.Release|Any CPU.Build.0 = Release|Any CPU
+		{CD2BEF2B-D4DB-4C44-9CF8-06BAD9288919}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{CD2BEF2B-D4DB-4C44-9CF8-06BAD9288919}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{CD2BEF2B-D4DB-4C44-9CF8-06BAD9288919}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{CD2BEF2B-D4DB-4C44-9CF8-06BAD9288919}.Release|Any CPU.Build.0 = Release|Any CPU
+		{CDC26D3D-2B71-472A-987B-A688AA46E7DD}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{CDC26D3D-2B71-472A-987B-A688AA46E7DD}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{CDC26D3D-2B71-472A-987B-A688AA46E7DD}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{CDC26D3D-2B71-472A-987B-A688AA46E7DD}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{CD2BEF2B-D4DB-4C44-9CF8-06BAD9288919} = {B4C03A4A-7F6B-4685-954E-ACAA9CCD662D}
+		{941559E1-57A6-4479-988C-D6D212734045} = {B4C03A4A-7F6B-4685-954E-ACAA9CCD662D}
+		{9A80815D-70F8-484F-A345-8CF23148DEE5} = {ED3C1DD1-1DB3-443A-98FB-517224263B01}
+		{0A13546B-8D0F-4368-B17A-C33D8322A86D} = {ED3C1DD1-1DB3-443A-98FB-517224263B01}
+	EndGlobalSection
+	GlobalSection(MonoDevelopProperties) = preSolution
+		StartupItem = WearListDemo\WearListDemo.csproj
+	EndGlobalSection
+EndGlobal
