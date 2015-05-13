@@ -1,0 +1,116 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="4443" systemVersion="13A451" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" initialViewController="99">
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="3733.0"/>
+    </dependencies>
+    <scenes>
+        <scene sceneID="4">
+            <objects>
+                <viewController id="5" sceneMemberID="viewController" customClass="LoginViewController" title="Login">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="2"/>
+                        <viewControllerLayoutGuide type="bottom" id="3"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="6">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
+                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+                        <subviews>
+                            <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" minimumFontSize="17" id="16" translatesAutoresizingMaskIntoConstraints="NO" placeholder="Email Address">
+                                <rect key="frame" x="20" y="196" width="280" height="30"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <textInputTraits key="textInputTraits" keyboardType="emailAddress" autocorrectionType="no" spellCheckingType="no"/>
+                            </textField>
+                            <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" minimumFontSize="17" id="17" translatesAutoresizingMaskIntoConstraints="NO" placeholder="Password">
+                                <rect key="frame" x="20" y="234" width="280" height="30"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <textInputTraits key="textInputTraits" secureTextEntry="YES" autocorrectionType="no" spellCheckingType="no" returnKeyType="done" enablesReturnKeyAutomatically="YES"/>
+                            </textField>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" id="18" translatesAutoresizingMaskIntoConstraints="NO">
+                                <rect key="frame" x="60" y="272" width="200" height="30"/>
+                                <state key="normal" title="Login">
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <connections>
+                                    <action selector="buttonLogin_TouchUpInside:" destination="5" id="91" eventType="touchUpInside"/>
+                                </connections>
+                            </button>
+                            <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" text="Welcome to the sample app that we are going to show off in TestCloud using UI Test!" lineBreakMode="tailTruncation" minimumFontSize="10" id="22" translatesAutoresizingMaskIntoConstraints="NO" numberOfLines="3">
+                                <rect key="frame" x="19" y="84" width="281" height="90"/>
+                                <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                <nil key="highlightedColor"/>
+                                <constraints>
+                                    <constraint id="43" firstItem="22" firstAttribute="height" constant="90"/>
+                                </constraints>
+                            </label>
+                        </subviews>
+                        <constraints>
+                            <constraint firstItem="16" firstAttribute="leading" secondItem="6" secondAttribute="leading" constant="20" id="23"/>
+                            <constraint firstItem="6" firstAttribute="trailing" secondItem="16" secondAttribute="trailing" constant="20" id="24"/>
+                            <constraint firstItem="16" firstAttribute="top" secondItem="22" secondAttribute="bottom" constant="22" id="25"/>
+                            <constraint firstItem="22" firstAttribute="leading" secondItem="6" secondAttribute="leading" constant="19" id="30"/>
+                            <constraint firstItem="6" firstAttribute="trailing" secondItem="22" secondAttribute="trailing" constant="20" id="31"/>
+                            <constraint firstItem="6" firstAttribute="trailing" secondItem="17" secondAttribute="trailing" constant="20" id="37"/>
+                            <constraint firstItem="17" firstAttribute="leading" secondItem="6" secondAttribute="leading" constant="20" id="38"/>
+                            <constraint firstItem="17" firstAttribute="top" secondItem="16" secondAttribute="bottom" constant="8" id="39"/>
+                            <constraint firstItem="18" firstAttribute="leading" secondItem="6" secondAttribute="leading" constant="60" id="40"/>
+                            <constraint firstItem="6" firstAttribute="trailing" secondItem="18" secondAttribute="trailing" constant="60" id="41"/>
+                            <constraint firstItem="18" firstAttribute="top" secondItem="17" secondAttribute="bottom" constant="8" id="42"/>
+                            <constraint firstItem="18" firstAttribute="centerX" secondItem="6" secondAttribute="centerX" constant="0.0" id="85"/>
+                            <constraint firstItem="18" firstAttribute="centerX" secondItem="6" secondAttribute="centerX" constant="0.0" id="89"/>
+                            <constraint firstItem="18" firstAttribute="centerX" secondItem="6" secondAttribute="centerX" constant="0.0" id="90"/>
+                            <constraint firstItem="22" firstAttribute="top" secondItem="2" secondAttribute="bottom" constant="20" id="122"/>
+                        </constraints>
+                    </view>
+                    <connections>
+                        <outlet property="textEmail" destination="16" id="name-outlet-16"/>
+                        <outlet property="textPassword" destination="17" id="name-outlet-17"/>
+                        <outlet property="buttonLogin" destination="18" id="name-outlet-18"/>
+                        <segue id="83" destination="12" kind="push" identifier="segueHome"/>
+                    </connections>
+                    <navigationItem title="Login" id="119" key="navigationItem"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="7" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="455" y="358"/>
+        </scene>
+        <scene sceneID="11">
+            <objects>
+                <viewController id="12" sceneMemberID="viewController" customClass="HomeViewController" title="Home">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="9"/>
+                        <viewControllerLayoutGuide type="bottom" id="10"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="13" customClass="HomeViewController">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
+                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="14" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="994" y="347"/>
+        </scene>
+        <scene sceneID="98">
+            <objects>
+                <navigationController definesPresentationContext="YES" id="99" sceneMemberID="viewController">
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" id="102">
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" flexibleMaxY="YES"/>
+                    </navigationBar>
+                    <connections>
+                        <segue id="120" destination="5" kind="relationship" relationship="rootViewController"/>
+                    </connections>
+                </navigationController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="103" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1" y="404"/>
+        </scene>
+    </scenes>
+    <simulatedMetricsContainer key="defaultSimulatedMetrics">
+        <simulatedStatusBarMetrics key="statusBar"/>
+        <simulatedOrientationMetrics key="orientation"/>
+        <simulatedScreenMetrics key="destination" type="retina4"/>
+    </simulatedMetricsContainer>
+</document>
