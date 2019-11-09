@@ -8,10 +8,9 @@
              x:Class="MyGarishApp.MainPage">
 
     <StackLayout>
-        <!-- Place new controls here -->
-        <Label Text="Welcome to Xamarin.Forms!" 
-           HorizontalOptions="Center"
-           VerticalOptions="CenterAndExpand" />
+
+        <local:ColorPickerView ColorChanged="OnColorChanged" HorizontalOptions="FillAndExpand" VerticalOptions="FillAndExpand" />
+        
 		<local:GradientButton
 			x:Name="gradientButton"
 			Text="Eww..."

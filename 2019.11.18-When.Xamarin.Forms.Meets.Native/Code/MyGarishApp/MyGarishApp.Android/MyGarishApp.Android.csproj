@@ -15,7 +15,6 @@
     <AndroidManifest>Properties\AndroidManifest.xml</AndroidManifest>
     <MonoAndroidResourcePrefix>Resources</MonoAndroidResourcePrefix>
     <MonoAndroidAssetsPrefix>Assets</MonoAndroidAssetsPrefix>
-    <AndroidUseLatestPlatformSdk>false</AndroidUseLatestPlatformSdk>
     <TargetFrameworkVersion>v9.0</TargetFrameworkVersion>
     <AndroidEnableSGenConcurrent>true</AndroidEnableSGenConcurrent>
     <AndroidUseAapt2>true</AndroidUseAapt2>
@@ -63,10 +62,10 @@
     <Compile Include="Renderers\GradientButtonRendererAndroid.cs" />
     <Compile Include="Resources\Resource.designer.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Renderers\ColorPickerViewRendererAndroid.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="Resources\AboutResources.txt" />
-    <None Include="Assets\AboutAssets.txt" />
     <None Include="Properties\AndroidManifest.xml" />
   </ItemGroup>
   <ItemGroup>
@@ -89,11 +88,16 @@
   </ItemGroup>
   <ItemGroup>
     <Folder Include="Resources\drawable\" />
+    <Folder Include="Assets\" />
   </ItemGroup>
   <ItemGroup>
     <ProjectReference Include="..\MyGarishApp\MyGarishApp.csproj">
-      <Project>{80DA4AB0-8455-44A5-9EA5-1775B4689385}</Project>
+      <Project>{490ACEEA-20CD-40C2-B87D-860AB68C5BE8}</Project>
       <Name>MyGarishApp</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\..\ColorPickerViewBinding\ColorPickerViewBinding.csproj">
+      <Project>{B97E1CB8-15D0-4B62-BFCF-10717828DF60}</Project>
+      <Name>ColorPickerViewBinding</Name>
     </ProjectReference>
   </ItemGroup>
   <Import Project="$(MSBuildExtensionsPath)\Xamarin\Android\Xamarin.Android.CSharp.targets" />

@@ -30,5 +30,13 @@ namespace MyGarishApp
 				gradientButton.EndColor = Color.MediumPurple;
 			}
 		}
+
+        void OnColorChanged(object sender, Color color)
+        {
+            Device.BeginInvokeOnMainThread(() =>
+            {
+                gradientButton.StartColor = color;
+            });
+        }
 	}
 }

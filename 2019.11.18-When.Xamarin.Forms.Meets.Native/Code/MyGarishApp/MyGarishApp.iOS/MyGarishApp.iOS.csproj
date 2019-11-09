@@ -67,6 +67,7 @@
     <None Include="Entitlements.plist" />
     <None Include="Info.plist" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="ColorPickerViewRendereriOS.cs" />
   </ItemGroup>
   <ItemGroup>
     <InterfaceDefinition Include="Resources\LaunchScreen.storyboard" />
@@ -128,8 +129,12 @@
   <Import Project="$(MSBuildExtensionsPath)\Xamarin\iOS\Xamarin.iOS.CSharp.targets" />
   <ItemGroup>
     <ProjectReference Include="..\MyGarishApp\MyGarishApp.csproj">
-      <Project>{80DA4AB0-8455-44A5-9EA5-1775B4689385}</Project>
+      <Project>{490ACEEA-20CD-40C2-B87D-860AB68C5BE8}</Project>
       <Name>MyGarishApp</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\..\MSColorPickerBinding\MSColorPickerBinding.csproj">
+      <Project>{30D9C755-8CA0-428A-A08C-AA4F50618545}</Project>
+      <Name>MSColorPickerBinding</Name>
     </ProjectReference>
   </ItemGroup>
 </Project>

@@ -7,12 +7,6 @@ namespace MyGarishApp
 {
 	public class GradientButton : Xamarin.Forms.Button
 	{
-		public GradientButton()
-			: base()
-		{
-
-		}
-
 		Color startColor = Color.Transparent;
 		Color endColor = Color.Transparent;
 
