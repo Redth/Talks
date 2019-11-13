@@ -1,6 +1,10 @@
 Talks
 =====
 
+**Nov 12, 2019 - Xamarin Native: When Xplat is Not Enough**
+
+**May 12, 2015 - Techorama: Automated UI Testing for Mobile Apps, Push Notifications in Xamarin**
+
 **Dec 11, 2014 - Wear C# on your Wrist** @ London .NET User Group
 
 **Oct 9, 2014 - Build your Apps on the Shoulders of Giants** @ Xamarin Evolve 2014 (Atlanta)
