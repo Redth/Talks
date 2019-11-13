@@ -3,6 +3,7 @@ Native Xamarin: When Xplat is not enough
 
  - Video: https://www.youtube.com/watch?v=NyqxScrnJKw
  - SpeakerDeck: https://speakerdeck.com/redth
+ - [@TOMobileDev](https://twitter.com/tomobiledev/) Meetup: https://www.meetup.com/TorontoMobileDevelopers/events/vnnbjryzpbqb/
  - Other Links
    - Gitter Xamarin Components Chat: https://gitter.im/xamarin/XamarinComponents
 
