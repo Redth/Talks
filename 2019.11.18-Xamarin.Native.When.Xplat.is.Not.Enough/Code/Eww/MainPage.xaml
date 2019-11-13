@@ -1,0 +1,21 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms" xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml" xmlns:d="http://xamarin.com/schemas/2014/forms/design" xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" xmlns:eww="clr-namespace:Eww" mc:Ignorable="d" x:Class="Eww.MainPage">
+    <StackLayout Padding="20">
+        <!-- Place new controls here -->
+        <eww:ColorPickerView
+            x:Name="colourPicker"
+            VerticalOptions="FillAndExpand"
+            HorizontalOptions="FillAndExpand" />
+
+
+        <eww:GradientButton
+            x:Name="button"
+            Text="This is a button."
+            TextColor="Black"
+            BorderWidth="3"
+            BorderColor="Bisque"
+            BackgroundColor="Green"
+            CornerRadius="0"
+            />
+    </StackLayout>
+</ContentPage>

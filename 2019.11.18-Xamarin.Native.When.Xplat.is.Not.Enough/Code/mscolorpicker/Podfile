@@ -1,0 +1,6 @@
+
+platform :ios, '8.0'
+install! 'cocoapods', :integrate_targets => false
+target 'Xamarin' do
+  pod 'MSColorPicker', '1.0.1'
+end
