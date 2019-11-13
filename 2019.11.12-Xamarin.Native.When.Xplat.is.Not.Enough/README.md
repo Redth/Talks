@@ -3,6 +3,9 @@ Native Xamarin: When Xplat is not enough
 
  - Video: https://www.youtube.com/watch?v=NyqxScrnJKw
  - SpeakerDeck: https://speakerdeck.com/redth
+ - Other Links
+   - Gitter Xamarin Components Chat: https://gitter.im/xamarin/XamarinComponents
+
 
 iOS Binding Notes:
 ==================
@@ -62,6 +65,14 @@ Finally, copy the contents of the `ApiDefinition.cs` and `StructsAndEnums.cs` fi
 
 Android Binding Notes
 =====================
+
+For Android, we needed to download the .aar file from Maven.  
+
+We started looking at the latest version here: https://search.maven.org/artifact/com.jaredrummler/colorpicker/1.1.0/aar
+
+Looking in the pom xml file, we could see it had dependencies on some AndroidX bits that we wanted to avoid, so we eventually found https://search.maven.org/artifact/com.jaredrummler/colorpicker/1.0.2/aar instead which uses Android Support and downloaded the .aar.
+
+We added it to our project and made sure its build action was set to `LibraryProjectZip`.
 
 
 
