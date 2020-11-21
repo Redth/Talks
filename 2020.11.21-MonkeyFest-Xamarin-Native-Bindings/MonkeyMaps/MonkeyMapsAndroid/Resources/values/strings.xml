@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<resources>
+	<string name="app_name">MonkeyMapsAndroid</string>
+	<string name="action_settings">Settings</string>
+	<string name="mapbox_access_token">pk.eyJ1IjoicmVkdGgiLCJhIjoiNTQ1NjJiM2YxMjE1MmRkNTU3YmUyOTE5NjM2YzMzZDgifQ.QWjXXdDJw7eTToGFIdZh4g</string>
+</resources>
