@@ -47,15 +47,15 @@
     <ObjcBindingCoreSource Include="Structs.cs" />
   </ItemGroup>
   <ItemGroup>
-    <NativeReference Include="..\..\..\Desktop\MapboxWrapper\build\Release-iphoneos\MapboxWrapper.framework">
+    <NativeReference Include="..\..\MapboxWrapperiOS\build\Release-iphoneos\MapboxWrapper.framework">
       <Kind>Framework</Kind>
       <SmartLink>False</SmartLink>
     </NativeReference>
-    <NativeReference Include="..\..\..\Desktop\MapboxWrapper\MapboxWrapper\Mapbox.framework">
+    <NativeReference Include="..\..\MapboxWrapperiOS\MapboxWrapper\Mapbox.framework">
       <Kind>Framework</Kind>
       <SmartLink>False</SmartLink>
     </NativeReference>
-    <NativeReference Include="..\..\..\Desktop\MapboxWrapper\MapboxWrapper\MapboxMobileEvents.framework">
+    <NativeReference Include="..\..\MapboxWrapperiOS\MapboxWrapper\MapboxMobileEvents.framework">
       <Kind>Framework</Kind>
       <SmartLink>False</SmartLink>
     </NativeReference>

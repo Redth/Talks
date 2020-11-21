@@ -56,7 +56,7 @@
     <Folder Include="Jars\" />
   </ItemGroup>
   <ItemGroup>
-    <LibraryProjectZip Include="..\..\..\Desktop\MapboxWrapperAndroid\mylibrary\build\outputs\aar\mylibrary-release.aar">
+    <LibraryProjectZip Include="..\..\MapboxWrapperAndroid\mylibrary\build\outputs\aar\mylibrary-release.aar">
       <Link>Jars\mylibrary-release.aar</Link>
     </LibraryProjectZip>
   </ItemGroup>
