@@ -1,6 +1,8 @@
 Talks
 =====
 
+**Nov 21, 2020 - MonkeyFest.dev: Bridge the gap with bindings to native iOS and Android SDK’s**
+
 **Nov 12, 2019 - Xamarin Native: When Xplat is Not Enough**
 
 **May 12, 2015 - Techorama: Automated UI Testing for Mobile Apps, Push Notifications in Xamarin**
